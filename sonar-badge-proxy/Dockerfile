@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "node", "injex.js" ]
+CMD [ "node", "index.js" ]
