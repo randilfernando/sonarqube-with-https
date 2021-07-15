@@ -48,7 +48,7 @@ services:
       networks:
         - sonarnet
       volumes:
-        - /home/ec2-user/sonarqube/init.sh:/mnt/init.sh
+        - ./init.sh:/mnt/init.sh
       command: [ "sh", "-e", "/mnt/init.sh" ]
 
 volumes:

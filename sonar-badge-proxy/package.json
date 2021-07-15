@@ -1,0 +1,15 @@
+{
+  "name": "sonar-badge-proxy",
+  "version": "1.0.0",
+  "description": "SonarQube proxy to access quality badges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "randilfernando <randil.fernando@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
